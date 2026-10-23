@@ -9,21 +9,21 @@
   "low_sample": false
  },
  "ph_accessible": {
-  "n": 57,
+  "n": 56,
   "p10": 55900,
   "p25": 71200,
   "median": 127000,
-  "p75": 635200,
+  "p75": 610100,
   "p90": 1423000,
   "low_sample": false
  },
  "not_ph_accessible": {
-  "n": 1715,
+  "n": 1716,
   "p10": 254100,
   "p25": 406600,
-  "median": 661100,
+  "median": 661200,
   "p75": 900000,
-  "p90": 1143000,
+  "p90": 1142200,
   "low_sample": false
  },
  "by_role": [

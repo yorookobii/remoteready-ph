@@ -57,7 +57,12 @@ def test_location_tiers():
     assert C.location_tier("Canada,  USA") == "US & Canada only"
     assert C.location_tier("Berlin") == "Europe only"
     assert C.location_tier("Brazil") == "Latin America only"
-    assert C.location_tier("|".join(["Country"] * 45)) == "Worldwide"
+    assert C.location_tier("|".join(["Country"] * 120)) == "Worldwide"
+    europe = "Albania|Austria|Belgium|Germany|France|Spain|" + "|".join(f"Place{i}" for i in range(50))
+    assert C.location_tier(europe) == "Europe only"
+    assert C.location_tier("Remote", "arbeitnow") == "Europe only"
+    assert C.location_tier("Remote job", "arbeitnow") == "Europe only"
+    assert C.location_tier("Remote", "remotive") == "Worldwide"
 
 
 def test_day_shift_fit():

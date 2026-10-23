@@ -172,12 +172,15 @@ LATAM = re.compile(r"\b(?:latam|latin america|brazil|mexico|colombia|argentina|p
 TIERS = ["Worldwide", "Open to PH/APAC", "US & Canada only", "Europe only", "Latin America only", "Other regions"]
 
 
-def location_tier(raw: str) -> str:
+def location_tier(raw: str, source: str = "") -> str:
     text = (raw or "").strip()
     if WORLDWIDE.match(text):
-        return "Worldwide"
+        # Arbeitnow is a European board: a bare "Remote" there means remote within Europe.
+        return "Europe only" if source == "arbeitnow" else "Worldwide"
     countries = [c for c in re.split(r"[|,]", text) if c.strip()]
-    if len(countries) >= 40:  # Himalayas lists every allowed country; 40+ is effectively global
+    # Himalayas lists every allowed country. A long list is only global if it spans continents:
+    # "all of Europe" is 50+ countries but still Europe only.
+    if len(countries) >= 100:
         return "Worldwide"
     if APAC.search(text):
         return "Open to PH/APAC"
@@ -275,7 +278,7 @@ def clean(raw: pd.DataFrame, to_usd: dict | None = None, usd_to_php: float | Non
 
     df["role"] = [role_family(t, c) for t, c in zip(df.title, df.category_raw)]
     df["seniority"] = [seniority(s, t) for s, t in zip(df.seniority_raw, df.title)]
-    df["tier"] = df["location_raw"].map(location_tier)
+    df["tier"] = [location_tier(loc, src) for loc, src in zip(df.location_raw, df.source)]
     df["ph_accessible"] = df["tier"].isin(["Worldwide", "Open to PH/APAC"])
     df["ph_based"] = df["location_raw"].str.contains("philippines", case=False)
     df["day_shift_fit"] = df["timezones_raw"].map(ph_day_shift_fit)

@@ -1,8 +1,8 @@
 {
  "kpis": {
   "jobs": 4207,
-  "ph_accessible_pct": 7.7,
-  "ph_accessible_count": 325,
+  "ph_accessible_pct": 5.1,
+  "ph_accessible_count": 216,
   "ph_based_count": 109,
   "top_role": "Engineering",
   "top_role_share": 28.1,
@@ -59,14 +59,14 @@
  "tiers": [
   {
    "tier": "Worldwide",
-   "count": 205,
-   "share": 4.9,
+   "count": 90,
+   "share": 2.1,
    "ph_accessible": true
   },
   {
    "tier": "Open to PH/APAC",
-   "count": 120,
-   "share": 2.9,
+   "count": 126,
+   "share": 3.0,
    "ph_accessible": true
   },
   {
@@ -77,14 +77,14 @@
   },
   {
    "tier": "Europe only",
-   "count": 813,
-   "share": 19.3,
+   "count": 919,
+   "share": 21.8,
    "ph_accessible": false
   },
   {
    "tier": "Latin America only",
-   "count": 291,
-   "share": 6.9,
+   "count": 294,
+   "share": 7.0,
    "ph_accessible": false
   },
   {
@@ -148,54 +148,54 @@
  ],
  "top_skills_ph": [
   {
-   "skill": "Python",
-   "count": 49,
-   "share": 15.1
+   "skill": "CRM",
+   "count": 39,
+   "share": 18.1
   },
   {
-   "skill": "CRM",
-   "count": 47,
-   "share": 14.5
+   "skill": "Python",
+   "count": 33,
+   "share": 15.3
   },
   {
    "skill": "Generative AI",
-   "count": 43,
-   "share": 13.2
+   "count": 32,
+   "share": 14.8
   },
   {
    "skill": "Customer Service",
-   "count": 36,
-   "share": 11.1
+   "count": 31,
+   "share": 14.4
   },
   {
    "skill": "Excel",
-   "count": 33,
-   "share": 10.2
-  },
-  {
-   "skill": "AWS",
-   "count": 28,
-   "share": 8.6
-  },
-  {
-   "skill": "Git",
-   "count": 26,
-   "share": 8.0
+   "count": 30,
+   "share": 13.9
   },
   {
    "skill": "JavaScript",
-   "count": 25,
-   "share": 7.7
+   "count": 22,
+   "share": 10.2
   },
   {
-   "skill": "Project Management",
+   "skill": "Microsoft Office",
    "count": 22,
-   "share": 6.8
+   "share": 10.2
   },
   {
-   "skill": "SQL",
-   "count": 22,
-   "share": 6.8
+   "skill": "Google Workspace",
+   "count": 19,
+   "share": 8.8
+  },
+  {
+   "skill": "AWS",
+   "count": 18,
+   "share": 8.3
+  },
+  {
+   "skill": "Machine Learning",
+   "count": 15,
+   "share": 6.9
   }
  ],
  "job_types": [

@@ -114,3 +114,61 @@ export function PageState({ loading, error }) {
   if (loading) return <div className="card animate-pulse text-body-sm text-subtle">Loading data…</div>
   return null
 }
+
+export function DataTable({ columns, rows }) {
+  return (
+    <div className="overflow-x-auto">
+      <table className="w-full border-collapse text-body-sm">
+        <thead>
+          <tr className="bg-sunken">
+            {columns.map((c) => (
+              <th key={c.key} className={`label px-3 py-2 font-medium ${c.right ? 'text-right' : 'text-left'}`}>
+                {c.label}
+              </th>
+            ))}
+          </tr>
+        </thead>
+        <tbody>
+          {rows.map((r, i) => (
+            <tr key={i} className="border-b border-line">
+              {columns.map((c) => (
+                <td key={c.key} className={`px-3 py-2 ${c.right ? 'text-right font-mono text-data' : ''}`}>
+                  {c.format ? c.format(r[c.key]) : r[c.key]}
+                </td>
+              ))}
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+  )
+}
+
+/** One row of filter chips. options: [{value, label}] or strings. */
+export function FilterChips({ label, options, value, onChange }) {
+  return (
+    <div role="group" aria-label={label} className="flex flex-wrap gap-2">
+      {options.map((o) => {
+        const opt = typeof o === 'string' ? { value: o, label: o } : o
+        const on = opt.value === value
+        return (
+          <button
+            key={opt.value}
+            type="button"
+            aria-pressed={on}
+            onClick={() => onChange(opt.value)}
+            className={`rounded-full border px-3.5 py-1.5 text-body-sm font-medium ${
+              on ? 'border-[#b9e0db] bg-brand-soft text-brand-ink' : 'border-transparent bg-sunken text-muted hover:text-ink'
+            }`}
+          >
+            {opt.label}
+          </button>
+        )
+      })}
+    </div>
+  )
+}
+
+export function Note({ children }) {
+  return <p className="m-0 rounded-md bg-sunken px-4 py-3 text-body-sm text-muted">{children}</p>
+}

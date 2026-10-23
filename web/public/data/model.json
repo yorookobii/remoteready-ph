@@ -4,10 +4,10 @@
  "n_test": 355,
  "n_features": 64,
  "metrics": {
-  "mae": 219600,
-  "rmse": 314800,
-  "r2": 0.322,
-  "median_ape_pct": 26.3
+  "mae": 220200,
+  "rmse": 315600,
+  "r2": 0.318,
+  "median_ape_pct": 26.7
  },
  "baseline": {
   "name": "median pay of the same role and seniority",
@@ -18,63 +18,63 @@
  "importances": [
   {
    "feature": "tier: US & Canada only",
-   "importance": 0.1812
+   "importance": 0.1798
   },
   {
    "feature": "level: Mid",
-   "importance": 0.08
+   "importance": 0.0786
   },
   {
    "feature": "tier: Europe only",
-   "importance": 0.0746
+   "importance": 0.0777
   },
   {
    "feature": "level: Senior",
-   "importance": 0.0677
+   "importance": 0.0693
   },
   {
    "feature": "n: skills",
-   "importance": 0.0656
+   "importance": 0.0639
   },
   {
    "feature": "level: Entry",
-   "importance": 0.0548
+   "importance": 0.0534
   },
   {
    "feature": "level: Lead",
-   "importance": 0.0495
+   "importance": 0.0497
   },
   {
    "feature": "type: Internship",
-   "importance": 0.0407
+   "importance": 0.0405
   },
   {
    "feature": "role: Other",
-   "importance": 0.0331
+   "importance": 0.0326
   },
   {
    "feature": "role: Customer Support",
-   "importance": 0.0274
+   "importance": 0.0266
   },
   {
    "feature": "tier: Latin America only",
-   "importance": 0.0267
+   "importance": 0.0264
   },
   {
    "feature": "role: Engineering",
-   "importance": 0.0249
-  },
-  {
-   "feature": "skill: Spanish",
-   "importance": 0.0218
+   "importance": 0.0247
   },
   {
    "feature": "tier: Open to PH/APAC",
-   "importance": 0.0189
+   "importance": 0.0211
+  },
+  {
+   "feature": "skill: Spanish",
+   "importance": 0.0211
   },
   {
    "feature": "skill: Python",
-   "importance": 0.0159
+   "importance": 0.016
   }
  ]
 }

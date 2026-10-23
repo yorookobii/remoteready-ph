@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 import { Bar, BarChart, Cell, LabelList, Pie, PieChart, ResponsiveContainer, Tooltip, XAxis, YAxis } from 'recharts'
 import { useData } from '../lib/data'
 import { num, pct, peso } from '../lib/format'
-import { BarList, ChartCard, KpiCard, PageState, SourceChip, TextButton } from '../components/ui'
+import { BarList, ChartCard, DataTable, KpiCard, PageState, SourceChip, TextButton } from '../components/ui'
 
 // Tiers open to Filipino applicants get the brand teal; region-locked tiers stay grey.
 const TIER_COLORS = {
@@ -22,35 +22,6 @@ function ChartTooltip({ active, payload, format }) {
     <div className="rounded-md border border-line bg-surface px-3 py-2 text-body-sm shadow-pop">
       <div className="font-semibold">{p.role ?? p.tier}</div>
       <div className="font-mono text-data text-muted">{format(p)}</div>
-    </div>
-  )
-}
-
-function DataTable({ columns, rows }) {
-  return (
-    <div className="overflow-x-auto">
-      <table className="w-full border-collapse text-body-sm">
-        <thead>
-          <tr className="bg-sunken">
-            {columns.map((c) => (
-              <th key={c.key} className={`label px-3 py-2 font-medium ${c.right ? 'text-right' : 'text-left'}`}>
-                {c.label}
-              </th>
-            ))}
-          </tr>
-        </thead>
-        <tbody>
-          {rows.map((r, i) => (
-            <tr key={i} className="border-b border-line">
-              {columns.map((c) => (
-                <td key={c.key} className={`px-3 py-2 ${c.right ? 'text-right font-mono text-data' : ''}`}>
-                  {c.format ? c.format(r[c.key]) : r[c.key]}
-                </td>
-              ))}
-            </tr>
-          ))}
-        </tbody>
-      </table>
     </div>
   )
 }
