@@ -13,6 +13,7 @@ dist/
 .env
 .env.*
 
-# Big raw data (keep small samples only)
+# Big data files stay local (share over Drive). The small JSON in web/public/data IS committed.
 data/raw/*.csv
 !data/raw/.gitkeep
+data/clean/

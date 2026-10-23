@@ -1,0 +1,64 @@
+{
+ "snapshot_file": "snapshot_2026-10-23.csv",
+ "snapshot_date": "2026-10-23",
+ "generated_at": "2026-10-23T04:53:53.808060+00:00",
+ "raw_rows": 4475,
+ "raw_by_source": {
+  "himalayas": 3000,
+  "jobicy": 1112,
+  "arbeitnow": 353,
+  "remotive": 10
+ },
+ "jobs": 4207,
+ "jobs_by_source": {
+  "himalayas": 2812,
+  "jobicy": 1060,
+  "arbeitnow": 325,
+  "remotive": 10
+ },
+ "duplicates_removed": 268,
+ "salary_coverage_pct": 42.1,
+ "skills_coverage_pct": 79.7,
+ "usd_to_php": 63.53,
+ "rate_source": "open.er-api.com, Fri, 23 Oct 2026 00:02:31 +0000",
+ "posted_from": "2026-09-21T04:55:11+00:00",
+ "posted_to": "2026-10-23T02:31:11+00:00",
+ "trend_available": false,
+ "role_families": [
+  "Data & AI",
+  "Customer Support",
+  "Engineering",
+  "Admin & Operations",
+  "Sales",
+  "Marketing",
+  "Design & Creative",
+  "Finance & HR",
+  "Other"
+ ],
+ "tiers": [
+  "Worldwide",
+  "Open to PH/APAC",
+  "US & Canada only",
+  "Europe only",
+  "Latin America only",
+  "Other regions"
+ ],
+ "sources": [
+  {
+   "name": "Himalayas",
+   "url": "https://himalayas.app"
+  },
+  {
+   "name": "Jobicy",
+   "url": "https://jobicy.com"
+  },
+  {
+   "name": "Remotive",
+   "url": "https://remotive.com"
+  },
+  {
+   "name": "Arbeitnow",
+   "url": "https://www.arbeitnow.com"
+  }
+ ]
+}

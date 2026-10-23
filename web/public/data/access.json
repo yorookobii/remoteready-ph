@@ -1,0 +1,475 @@
+{
+ "overall": {
+  "rate": 7.7,
+  "count": 325,
+  "total": 4207,
+  "ph_based": 109
+ },
+ "tiers": [
+  {
+   "tier": "Worldwide",
+   "count": 205,
+   "share": 4.9
+  },
+  {
+   "tier": "Open to PH/APAC",
+   "count": 120,
+   "share": 2.9
+  },
+  {
+   "tier": "US & Canada only",
+   "count": 2358,
+   "share": 56.0
+  },
+  {
+   "tier": "Europe only",
+   "count": 813,
+   "share": 19.3
+  },
+  {
+   "tier": "Latin America only",
+   "count": 291,
+   "share": 6.9
+  },
+  {
+   "tier": "Other regions",
+   "count": 420,
+   "share": 10.0
+  }
+ ],
+ "by_role": [
+  {
+   "role": "Design & Creative",
+   "jobs": 88,
+   "ph_jobs": 15,
+   "rate": 17.0,
+   "tiers": {
+    "Worldwide": 12.5,
+    "Open to PH/APAC": 4.5,
+    "US & Canada only": 42.0,
+    "Europe only": 23.9,
+    "Latin America only": 8.0,
+    "Other regions": 9.1
+   }
+  },
+  {
+   "role": "Customer Support",
+   "jobs": 281,
+   "ph_jobs": 29,
+   "rate": 10.3,
+   "tiers": {
+    "Worldwide": 5.3,
+    "Open to PH/APAC": 5.0,
+    "US & Canada only": 57.7,
+    "Europe only": 17.4,
+    "Latin America only": 7.1,
+    "Other regions": 7.5
+   }
+  },
+  {
+   "role": "Finance & HR",
+   "jobs": 250,
+   "ph_jobs": 25,
+   "rate": 10.0,
+   "tiers": {
+    "Worldwide": 2.0,
+    "Open to PH/APAC": 8.0,
+    "US & Canada only": 56.4,
+    "Europe only": 17.2,
+    "Latin America only": 5.6,
+    "Other regions": 10.8
+   }
+  },
+  {
+   "role": "Engineering",
+   "jobs": 1184,
+   "ph_jobs": 112,
+   "rate": 9.5,
+   "tiers": {
+    "Worldwide": 7.5,
+    "Open to PH/APAC": 1.9,
+    "US & Canada only": 49.5,
+    "Europe only": 19.2,
+    "Latin America only": 11.5,
+    "Other regions": 10.4
+   }
+  },
+  {
+   "role": "Marketing",
+   "jobs": 283,
+   "ph_jobs": 23,
+   "rate": 8.1,
+   "tiers": {
+    "Worldwide": 4.9,
+    "Open to PH/APAC": 3.2,
+    "US & Canada only": 50.9,
+    "Europe only": 23.0,
+    "Latin America only": 5.3,
+    "Other regions": 12.7
+   }
+  },
+  {
+   "role": "Admin & Operations",
+   "jobs": 475,
+   "ph_jobs": 35,
+   "rate": 7.4,
+   "tiers": {
+    "Worldwide": 2.7,
+    "Open to PH/APAC": 4.6,
+    "US & Canada only": 64.4,
+    "Europe only": 15.8,
+    "Latin America only": 4.8,
+    "Other regions": 7.6
+   }
+  },
+  {
+   "role": "Other",
+   "jobs": 453,
+   "ph_jobs": 26,
+   "rate": 5.7,
+   "tiers": {
+    "Worldwide": 5.1,
+    "Open to PH/APAC": 0.7,
+    "US & Canada only": 57.2,
+    "Europe only": 21.6,
+    "Latin America only": 2.0,
+    "Other regions": 13.5
+   }
+  },
+  {
+   "role": "Sales",
+   "jobs": 723,
+   "ph_jobs": 39,
+   "rate": 5.4,
+   "tiers": {
+    "Worldwide": 2.5,
+    "Open to PH/APAC": 2.9,
+    "US & Canada only": 58.6,
+    "Europe only": 21.0,
+    "Latin America only": 4.3,
+    "Other regions": 10.7
+   }
+  },
+  {
+   "role": "Data & AI",
+   "jobs": 470,
+   "ph_jobs": 21,
+   "rate": 4.5,
+   "tiers": {
+    "Worldwide": 3.6,
+    "Open to PH/APAC": 0.9,
+    "US & Canada only": 63.6,
+    "Europe only": 17.7,
+    "Latin America only": 7.7,
+    "Other regions": 6.6
+   }
+  }
+ ],
+ "day_shift": {
+  "jobs_with_timezone": 2812,
+  "fit_pct": 10.6,
+  "fit_count": 299
+ },
+ "jobs": [
+  {
+   "title": "Cyber Security Consultant (UK) - Dionach by Nomios",
+   "company": "Nomios",
+   "role": "Engineering",
+   "tier": "Worldwide",
+   "source": "arbeitnow",
+   "url": "https://www.arbeitnow.co.uk/jobs/companies/nomios/remote-cyber-security-consultant-uk-dionach-by-nomios-scotland-274544",
+   "posted": "2026-10-23T02:31:11+00:00",
+   "pay_mid_php": null
+  },
+  {
+   "title": "Solution Architect - Remote from EU",
+   "company": "AlmavivA de Belgique",
+   "role": "Engineering",
+   "tier": "Worldwide",
+   "source": "arbeitnow",
+   "url": "https://www.arbeitnow.nl/jobs/companies/almaviva-de-belgique/solution-architect-remote-from-eu-the-hague-200819",
+   "posted": "2026-10-23T02:31:10+00:00",
+   "pay_mid_php": null
+  },
+  {
+   "title": "Backend Developer .Net - Remote from EU - Deadline 27/10/26",
+   "company": "AlmavivA de Belgique",
+   "role": "Engineering",
+   "tier": "Worldwide",
+   "source": "arbeitnow",
+   "url": "https://www.arbeitnow.nl/jobs/companies/almaviva-de-belgique/backend-developer-net-remote-from-eu-deadline-27-10-26-the-hague-434774",
+   "posted": "2026-10-23T02:31:10+00:00",
+   "pay_mid_php": null
+  },
+  {
+   "title": "Participate in the OpenAI Experience Lab – AI Enthusiasts Wanted! Location: London, UK (In-Person) Date: 9 November",
+   "company": "Tester Work",
+   "role": "Other",
+   "tier": "Worldwide",
+   "source": "arbeitnow",
+   "url": "https://www.arbeitnow.co.uk/jobs/companies/tester-work/remote-participate-in-the-openai-experience-lab-ai-enthusiasts-wanted-location-london-uk-in-person-date-9-november-183782",
+   "posted": "2026-10-23T02:31:08+00:00",
+   "pay_mid_php": null
+  },
+  {
+   "title": "Project Manager - Software Implementation (m/f/x)",
+   "company": "Makersite GmbH",
+   "role": "Admin & Operations",
+   "tier": "Worldwide",
+   "source": "arbeitnow",
+   "url": "https://www.arbeitnow.com/jobs/companies/makersite-gmbh/remote-project-manager-software-implementation-berlin-396785",
+   "posted": "2026-10-22T23:31:10+00:00",
+   "pay_mid_php": null
+  },
+  {
+   "title": "Community Lead | Multiple Langs",
+   "company": "LILT (Production)",
+   "role": "Marketing",
+   "tier": "Worldwide",
+   "source": "arbeitnow",
+   "url": "https://www.arbeitnow.com/jobs/companies/lilt-production/remote-community-lead-multiple-langs-491904",
+   "posted": "2026-10-22T20:40:14+00:00",
+   "pay_mid_php": null
+  },
+  {
+   "title": "Project Manager, Gaming Localization Production",
+   "company": "LILT (Production)",
+   "role": "Admin & Operations",
+   "tier": "Worldwide",
+   "source": "arbeitnow",
+   "url": "https://www.arbeitnow.com/jobs/companies/lilt-production/remote-project-manager-gaming-localization-production-314188",
+   "posted": "2026-10-22T20:40:14+00:00",
+   "pay_mid_php": null
+  },
+  {
+   "title": "Senior Backend Engineer",
+   "company": "Tala",
+   "role": "Engineering",
+   "tier": "Open to PH/APAC",
+   "source": "jobicy",
+   "url": "https://jobicy.com/jobs/156465-senior-backend-engineer-11",
+   "posted": "2026-10-22T20:38:14+00:00",
+   "pay_mid_php": null
+  },
+  {
+   "title": "Senior Manager Expansion Risk",
+   "company": "Tala",
+   "role": "Finance & HR",
+   "tier": "Open to PH/APAC",
+   "source": "jobicy",
+   "url": "https://jobicy.com/jobs/156469-senior-manager-expansion-risk",
+   "posted": "2026-10-22T20:38:09+00:00",
+   "pay_mid_php": null
+  },
+  {
+   "title": "Staff Accountant (Senior)",
+   "company": "MicroSourcing",
+   "role": "Finance & HR",
+   "tier": "Open to PH/APAC",
+   "source": "himalayas",
+   "url": "https://himalayas.app/companies/microsourcing/jobs/staff-accountant-senior?utm_source=api",
+   "posted": "2026-10-22T18:50:52+00:00",
+   "pay_mid_php": null
+  },
+  {
+   "title": "Home-Based Administrative Support",
+   "company": "DCX PH",
+   "role": "Admin & Operations",
+   "tier": "Open to PH/APAC",
+   "source": "himalayas",
+   "url": "https://himalayas.app/companies/dcx-ph/jobs/home-based-administrative-support?utm_source=api",
+   "posted": "2026-10-22T18:49:30+00:00",
+   "pay_mid_php": 36200
+  },
+  {
+   "title": "Staffing Coordinator",
+   "company": "Stellar Personnel",
+   "role": "Admin & Operations",
+   "tier": "Open to PH/APAC",
+   "source": "himalayas",
+   "url": "https://himalayas.app/companies/stellar-personnel/jobs/staffing-coordinator?utm_source=api",
+   "posted": "2026-10-22T18:30:31+00:00",
+   "pay_mid_php": null
+  },
+  {
+   "title": "Home-Based Accountant",
+   "company": "DCX PH",
+   "role": "Finance & HR",
+   "tier": "Open to PH/APAC",
+   "source": "himalayas",
+   "url": "https://himalayas.app/companies/dcx-ph/jobs/home-based-accountant?utm_source=api",
+   "posted": "2026-10-22T18:16:43+00:00",
+   "pay_mid_php": 71200
+  },
+  {
+   "title": "Senior AI Developer (020-1430)",
+   "company": "Hunt St",
+   "role": "Data & AI",
+   "tier": "Open to PH/APAC",
+   "source": "himalayas",
+   "url": "https://himalayas.app/companies/hunt-st/jobs/senior-ai-developer-020-1430?utm_source=api",
+   "posted": "2026-10-22T18:16:09+00:00",
+   "pay_mid_php": 200600
+  },
+  {
+   "title": "Full-Time Portfolio Product Manager",
+   "company": "Plan Left",
+   "role": "Admin & Operations",
+   "tier": "Open to PH/APAC",
+   "source": "himalayas",
+   "url": "https://himalayas.app/companies/plan-left/jobs/full-time-portfolio-product-manager?utm_source=api",
+   "posted": "2026-10-22T18:13:08+00:00",
+   "pay_mid_php": null
+  },
+  {
+   "title": "Product Safety & Regulatory Compliance Attorney",
+   "company": "micro1",
+   "role": "Other",
+   "tier": "Worldwide",
+   "source": "himalayas",
+   "url": "https://himalayas.app/companies/micro1/jobs/product-safety-regulatory-compliance-attorney?utm_source=api",
+   "posted": "2026-10-22T18:12:39+00:00",
+   "pay_mid_php": 1423000
+  },
+  {
+   "title": "Digital Marketing Manager (007-984)",
+   "company": "Hunt St",
+   "role": "Marketing",
+   "tier": "Open to PH/APAC",
+   "source": "himalayas",
+   "url": "https://himalayas.app/companies/hunt-st/jobs/digital-marketing-manager-007-984?utm_source=api",
+   "posted": "2026-10-22T18:12:21+00:00",
+   "pay_mid_php": 122600
+  },
+  {
+   "title": "Operations Virtual Assistant (For Pooling)",
+   "company": "Yokly",
+   "role": "Admin & Operations",
+   "tier": "Open to PH/APAC",
+   "source": "himalayas",
+   "url": "https://himalayas.app/companies/yokly-gives/jobs/operations-virtual-assistant-for-pooling?utm_source=api",
+   "posted": "2026-10-22T18:12:08+00:00",
+   "pay_mid_php": null
+  },
+  {
+   "title": "Native English Account Executive - Software sales - Fully remote",
+   "company": "Job Squad",
+   "role": "Sales",
+   "tier": "Open to PH/APAC",
+   "source": "himalayas",
+   "url": "https://himalayas.app/companies/job-squad/jobs/native-english-account-executive-software-sales-fully-remote?utm_source=api",
+   "posted": "2026-10-22T18:09:28+00:00",
+   "pay_mid_php": null
+  },
+  {
+   "title": "Freelance Tech Agent - APAC",
+   "company": "TransPerfect",
+   "role": "Customer Support",
+   "tier": "Worldwide",
+   "source": "himalayas",
+   "url": "https://himalayas.app/companies/transperfect/jobs/freelance-tech-agent-apac?utm_source=api",
+   "posted": "2026-10-22T17:45:47+00:00",
+   "pay_mid_php": null
+  },
+  {
+   "title": "Staff Backend Engineer - Promos",
+   "company": "Hard Rock Digital",
+   "role": "Engineering",
+   "tier": "Worldwide",
+   "source": "himalayas",
+   "url": "https://himalayas.app/companies/hard-rock-digital/jobs/staff-backend-engineer-promos?utm_source=api",
+   "posted": "2026-10-22T17:40:51+00:00",
+   "pay_mid_php": null
+  },
+  {
+   "title": "Product Analyst",
+   "company": "Scentbird",
+   "role": "Data & AI",
+   "tier": "Worldwide",
+   "source": "himalayas",
+   "url": "https://himalayas.app/companies/scentbird/jobs/product-analyst?utm_source=api",
+   "posted": "2026-10-22T17:38:47+00:00",
+   "pay_mid_php": null
+  },
+  {
+   "title": "Immigration Attorney",
+   "company": "micro1",
+   "role": "Other",
+   "tier": "Worldwide",
+   "source": "himalayas",
+   "url": "https://himalayas.app/companies/micro1/jobs/immigration-attorney-4694067820?utm_source=api",
+   "posted": "2026-10-22T17:29:14+00:00",
+   "pay_mid_php": 1423000
+  },
+  {
+   "title": "Recruitment and Workforce Manager",
+   "company": "BH Properties",
+   "role": "Finance & HR",
+   "tier": "Open to PH/APAC",
+   "source": "himalayas",
+   "url": "https://himalayas.app/companies/bh-properties/jobs/recruitment-and-workforce-manager?utm_source=api",
+   "posted": "2026-10-22T17:15:00+00:00",
+   "pay_mid_php": null
+  },
+  {
+   "title": "🏖️Dynamics 365 Business Central Solutions Specialist - Job Code: 1792013182143",
+   "company": "Coconut",
+   "role": "Other",
+   "tier": "Open to PH/APAC",
+   "source": "himalayas",
+   "url": "https://himalayas.app/companies/coconut/jobs/dynamics-365-business-central-solutions-specialist-job-code-1792013182143?utm_source=api",
+   "posted": "2026-10-22T17:13:28+00:00",
+   "pay_mid_php": 152400
+  },
+  {
+   "title": "Financial Controller",
+   "company": "BlackScale Media",
+   "role": "Finance & HR",
+   "tier": "Open to PH/APAC",
+   "source": "himalayas",
+   "url": "https://himalayas.app/companies/blackscale-media/jobs/financial-controller?utm_source=api",
+   "posted": "2026-10-22T17:01:38+00:00",
+   "pay_mid_php": null
+  },
+  {
+   "title": "Amazon Image Brief & Conversion Associate",
+   "company": "Rankona Mazon AB",
+   "role": "Engineering",
+   "tier": "Open to PH/APAC",
+   "source": "himalayas",
+   "url": "https://himalayas.app/companies/rankona-mazon-ab/jobs/amazon-image-brief-conversion-associate?utm_source=api",
+   "posted": "2026-10-22T17:01:36+00:00",
+   "pay_mid_php": null
+  },
+  {
+   "title": "Back-End Developer",
+   "company": "KDCI",
+   "role": "Engineering",
+   "tier": "Worldwide",
+   "source": "himalayas",
+   "url": "https://himalayas.app/companies/kdci/jobs/back-end-developer?utm_source=api",
+   "posted": "2026-10-22T17:01:35+00:00",
+   "pay_mid_php": null
+  },
+  {
+   "title": "Product Manager",
+   "company": "We Assist.io",
+   "role": "Admin & Operations",
+   "tier": "Open to PH/APAC",
+   "source": "himalayas",
+   "url": "https://himalayas.app/companies/we-assist-io/jobs/product-manager?utm_source=api",
+   "posted": "2026-10-22T16:49:15+00:00",
+   "pay_mid_php": 73000
+  },
+  {
+   "title": "Software Developer",
+   "company": "Millennium Technology Services",
+   "role": "Engineering",
+   "tier": "Open to PH/APAC",
+   "source": "himalayas",
+   "url": "https://himalayas.app/companies/millennium-technology-services/jobs/software-developer?utm_source=api",
+   "posted": "2026-10-22T16:42:32+00:00",
+   "pay_mid_php": null
+  }
+ ]
+}

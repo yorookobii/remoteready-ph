@@ -26,6 +26,14 @@ python pull.py           # full pull, a few minutes
 
 Output: `data/raw/snapshot_<date>.csv`, one row per job, plus a summary of rows per source, salary coverage and how many VA-like jobs came in.
 
+## Step 2: clean and analyze
+
+```bash
+python analyze.py        # uses the newest data/raw/snapshot_*.csv, about 1 minute
+```
+
+Writes every file the website reads to `web/public/data/` (see `docs/data-contract.md` for their shapes) and the cleaned table to `data/clean/jobs_clean.csv`. It fetches today's exchange rates from open.er-api.com and falls back to approximate rates if offline.
+
 Offline tests (no internet needed): `pip install pytest` then `python -m pytest -q`.
 
 ## Data sources and attribution

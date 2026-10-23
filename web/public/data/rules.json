@@ -1,0 +1,327 @@
+{
+ "min_support": 0.01,
+ "min_confidence": 0.4,
+ "jobs": 4207,
+ "rules": [
+  {
+   "a": "Tableau",
+   "b": "Power BI",
+   "support": 1.1,
+   "confidence": 54.5,
+   "lift": 22.72,
+   "jobs_together": 48
+  },
+  {
+   "a": "Node.js",
+   "b": "TypeScript",
+   "support": 1.2,
+   "confidence": 62.0,
+   "lift": 16.83,
+   "jobs_together": 49
+  },
+  {
+   "a": "Node.js",
+   "b": "React",
+   "support": 1.2,
+   "confidence": 65.8,
+   "lift": 16.19,
+   "jobs_together": 52
+  },
+  {
+   "a": "TypeScript",
+   "b": "React",
+   "support": 2.1,
+   "confidence": 58.1,
+   "lift": 14.29,
+   "jobs_together": 90
+  },
+  {
+   "a": "Docker",
+   "b": "Kubernetes",
+   "support": 2.3,
+   "confidence": 66.9,
+   "lift": 12.79,
+   "jobs_together": 97
+  },
+  {
+   "a": "Terraform",
+   "b": "Kubernetes",
+   "support": 1.9,
+   "confidence": 50.0,
+   "lift": 9.56,
+   "jobs_together": 79
+  },
+  {
+   "a": "React",
+   "b": "JavaScript",
+   "support": 1.6,
+   "confidence": 40.4,
+   "lift": 9.13,
+   "jobs_together": 69
+  },
+  {
+   "a": "Google Cloud",
+   "b": "Azure",
+   "support": 3.6,
+   "confidence": 60.0,
+   "lift": 8.44,
+   "jobs_together": 153
+  },
+  {
+   "a": "Terraform",
+   "b": "Google Cloud",
+   "support": 1.8,
+   "confidence": 47.5,
+   "lift": 7.83,
+   "jobs_together": 75
+  },
+  {
+   "a": "Docker",
+   "b": "Git",
+   "support": 1.9,
+   "confidence": 55.9,
+   "lift": 7.81,
+   "jobs_together": 81
+  },
+  {
+   "a": "Terraform",
+   "b": "AWS",
+   "support": 2.5,
+   "confidence": 67.1,
+   "lift": 7.57,
+   "jobs_together": 106
+  },
+  {
+   "a": "Tableau",
+   "b": "SQL",
+   "support": 1.4,
+   "confidence": 68.2,
+   "lift": 7.45,
+   "jobs_together": 60
+  },
+  {
+   "a": "Google Cloud",
+   "b": "AWS",
+   "support": 4.0,
+   "confidence": 65.9,
+   "lift": 7.43,
+   "jobs_together": 168
+  },
+  {
+   "a": "Azure",
+   "b": "AWS",
+   "support": 4.5,
+   "confidence": 63.5,
+   "lift": 7.17,
+   "jobs_together": 190
+  },
+  {
+   "a": "Docker",
+   "b": "AWS",
+   "support": 2.2,
+   "confidence": 63.4,
+   "lift": 7.16,
+   "jobs_together": 92
+  },
+  {
+   "a": "QA Testing",
+   "b": "Git",
+   "support": 1.3,
+   "confidence": 50.5,
+   "lift": 7.05,
+   "jobs_together": 55
+  },
+  {
+   "a": "Kubernetes",
+   "b": "AWS",
+   "support": 3.0,
+   "confidence": 58.2,
+   "lift": 6.56,
+   "jobs_together": 128
+  },
+  {
+   "a": "Power BI",
+   "b": "SQL",
+   "support": 1.3,
+   "confidence": 52.5,
+   "lift": 5.73,
+   "jobs_together": 53
+  },
+  {
+   "a": "Docker",
+   "b": "Azure",
+   "support": 1.4,
+   "confidence": 40.7,
+   "lift": 5.73,
+   "jobs_together": 59
+  },
+  {
+   "a": "Snowflake",
+   "b": "SQL",
+   "support": 1.1,
+   "confidence": 52.2,
+   "lift": 5.71,
+   "jobs_together": 47
+  },
+  {
+   "a": "Terraform",
+   "b": "Azure",
+   "support": 1.5,
+   "confidence": 40.5,
+   "lift": 5.7,
+   "jobs_together": 64
+  },
+  {
+   "a": "TypeScript",
+   "b": "AWS",
+   "support": 1.7,
+   "confidence": 45.8,
+   "lift": 5.17,
+   "jobs_together": 71
+  },
+  {
+   "a": "HubSpot",
+   "b": "CRM",
+   "support": 1.9,
+   "confidence": 64.8,
+   "lift": 5.12,
+   "jobs_together": 81
+  },
+  {
+   "a": "Linux",
+   "b": "Python",
+   "support": 1.9,
+   "confidence": 58.8,
+   "lift": 5.09,
+   "jobs_together": 80
+  },
+  {
+   "a": "Terraform",
+   "b": "Python",
+   "support": 2.1,
+   "confidence": 57.0,
+   "lift": 4.93,
+   "jobs_together": 90
+  },
+  {
+   "a": "HubSpot",
+   "b": "Salesforce",
+   "support": 1.4,
+   "confidence": 45.6,
+   "lift": 4.65,
+   "jobs_together": 57
+  },
+  {
+   "a": "Docker",
+   "b": "Python",
+   "support": 1.8,
+   "confidence": 53.1,
+   "lift": 4.6,
+   "jobs_together": 77
+  },
+  {
+   "a": "Power BI",
+   "b": "Excel",
+   "support": 1.2,
+   "confidence": 51.5,
+   "lift": 4.18,
+   "jobs_together": 52
+  },
+  {
+   "a": "Microsoft Office",
+   "b": "Excel",
+   "support": 5.4,
+   "confidence": 49.5,
+   "lift": 4.02,
+   "jobs_together": 226
+  },
+  {
+   "a": "Git",
+   "b": "Python",
+   "support": 3.3,
+   "confidence": 46.2,
+   "lift": 4.0,
+   "jobs_together": 139
+  },
+  {
+   "a": "SQL",
+   "b": "Python",
+   "support": 4.2,
+   "confidence": 46.0,
+   "lift": 3.98,
+   "jobs_together": 177
+  },
+  {
+   "a": "TypeScript",
+   "b": "Python",
+   "support": 1.7,
+   "confidence": 45.8,
+   "lift": 3.97,
+   "jobs_together": 71
+  },
+  {
+   "a": "Salesforce",
+   "b": "CRM",
+   "support": 4.9,
+   "confidence": 49.6,
+   "lift": 3.93,
+   "jobs_together": 205
+  },
+  {
+   "a": "JavaScript",
+   "b": "Python",
+   "support": 2.0,
+   "confidence": 44.6,
+   "lift": 3.86,
+   "jobs_together": 83
+  },
+  {
+   "a": "Kubernetes",
+   "b": "Python",
+   "support": 2.3,
+   "confidence": 44.5,
+   "lift": 3.86,
+   "jobs_together": 98
+  },
+  {
+   "a": "Statistics",
+   "b": "Python",
+   "support": 1.4,
+   "confidence": 44.3,
+   "lift": 3.83,
+   "jobs_together": 58
+  },
+  {
+   "a": "AWS",
+   "b": "Python",
+   "support": 3.9,
+   "confidence": 44.0,
+   "lift": 3.81,
+   "jobs_together": 164
+  },
+  {
+   "a": "Machine Learning",
+   "b": "Python",
+   "support": 1.9,
+   "confidence": 42.6,
+   "lift": 3.68,
+   "jobs_together": 80
+  },
+  {
+   "a": "Google Cloud",
+   "b": "Python",
+   "support": 2.6,
+   "confidence": 42.4,
+   "lift": 3.67,
+   "jobs_together": 108
+  },
+  {
+   "a": "Java",
+   "b": "Python",
+   "support": 1.5,
+   "confidence": 41.3,
+   "lift": 3.58,
+   "jobs_together": 62
+  }
+ ]
+}

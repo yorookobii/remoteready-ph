@@ -1,0 +1,245 @@
+{
+ "kpis": {
+  "jobs": 4207,
+  "ph_accessible_pct": 7.7,
+  "ph_accessible_count": 325,
+  "ph_based_count": 109,
+  "top_role": "Engineering",
+  "top_role_share": 28.1,
+  "median_monthly_php": 649500,
+  "salary_n": 1772
+ },
+ "roles": [
+  {
+   "role": "Engineering",
+   "count": 1184,
+   "share": 28.1
+  },
+  {
+   "role": "Sales",
+   "count": 723,
+   "share": 17.2
+  },
+  {
+   "role": "Admin & Operations",
+   "count": 475,
+   "share": 11.3
+  },
+  {
+   "role": "Data & AI",
+   "count": 470,
+   "share": 11.2
+  },
+  {
+   "role": "Other",
+   "count": 453,
+   "share": 10.8
+  },
+  {
+   "role": "Marketing",
+   "count": 283,
+   "share": 6.7
+  },
+  {
+   "role": "Customer Support",
+   "count": 281,
+   "share": 6.7
+  },
+  {
+   "role": "Finance & HR",
+   "count": 250,
+   "share": 5.9
+  },
+  {
+   "role": "Design & Creative",
+   "count": 88,
+   "share": 2.1
+  }
+ ],
+ "tiers": [
+  {
+   "tier": "Worldwide",
+   "count": 205,
+   "share": 4.9,
+   "ph_accessible": true
+  },
+  {
+   "tier": "Open to PH/APAC",
+   "count": 120,
+   "share": 2.9,
+   "ph_accessible": true
+  },
+  {
+   "tier": "US & Canada only",
+   "count": 2358,
+   "share": 56.0,
+   "ph_accessible": false
+  },
+  {
+   "tier": "Europe only",
+   "count": 813,
+   "share": 19.3,
+   "ph_accessible": false
+  },
+  {
+   "tier": "Latin America only",
+   "count": 291,
+   "share": 6.9,
+   "ph_accessible": false
+  },
+  {
+   "tier": "Other regions",
+   "count": 420,
+   "share": 10.0,
+   "ph_accessible": false
+  }
+ ],
+ "top_skills": [
+  {
+   "skill": "CRM",
+   "count": 532,
+   "share": 12.6
+  },
+  {
+   "skill": "Customer Service",
+   "count": 524,
+   "share": 12.5
+  },
+  {
+   "skill": "Excel",
+   "count": 518,
+   "share": 12.3
+  },
+  {
+   "skill": "Python",
+   "count": 486,
+   "share": 11.6
+  },
+  {
+   "skill": "Microsoft Office",
+   "count": 457,
+   "share": 10.9
+  },
+  {
+   "skill": "Salesforce",
+   "count": 413,
+   "share": 9.8
+  },
+  {
+   "skill": "Generative AI",
+   "count": 405,
+   "share": 9.6
+  },
+  {
+   "skill": "Project Management",
+   "count": 399,
+   "share": 9.5
+  },
+  {
+   "skill": "SQL",
+   "count": 385,
+   "share": 9.2
+  },
+  {
+   "skill": "AWS",
+   "count": 373,
+   "share": 8.9
+  }
+ ],
+ "top_skills_ph": [
+  {
+   "skill": "Python",
+   "count": 49,
+   "share": 15.1
+  },
+  {
+   "skill": "CRM",
+   "count": 47,
+   "share": 14.5
+  },
+  {
+   "skill": "Generative AI",
+   "count": 43,
+   "share": 13.2
+  },
+  {
+   "skill": "Customer Service",
+   "count": 36,
+   "share": 11.1
+  },
+  {
+   "skill": "Excel",
+   "count": 33,
+   "share": 10.2
+  },
+  {
+   "skill": "AWS",
+   "count": 28,
+   "share": 8.6
+  },
+  {
+   "skill": "Git",
+   "count": 26,
+   "share": 8.0
+  },
+  {
+   "skill": "JavaScript",
+   "count": 25,
+   "share": 7.7
+  },
+  {
+   "skill": "Project Management",
+   "count": 22,
+   "share": 6.8
+  },
+  {
+   "skill": "SQL",
+   "count": 22,
+   "share": 6.8
+  }
+ ],
+ "job_types": [
+  {
+   "type": "Full-time",
+   "count": 3665,
+   "share": 87.1
+  },
+  {
+   "type": "Contract",
+   "count": 404,
+   "share": 9.6
+  },
+  {
+   "type": "Part-time",
+   "count": 97,
+   "share": 2.3
+  },
+  {
+   "type": "Internship",
+   "count": 41,
+   "share": 1.0
+  }
+ ],
+ "seniority": [
+  {
+   "level": "Entry",
+   "count": 341,
+   "share": 8.1
+  },
+  {
+   "level": "Mid",
+   "count": 1254,
+   "share": 29.8
+  },
+  {
+   "level": "Senior",
+   "count": 1770,
+   "share": 42.1
+  },
+  {
+   "level": "Lead",
+   "count": 842,
+   "share": 20.0
+  }
+ ]
+}

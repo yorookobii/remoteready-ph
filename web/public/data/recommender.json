@@ -1,0 +1,1462 @@
+{
+ "roles": {
+  "Admin & Operations": {
+   "jobs": 475,
+   "ph_jobs": 35,
+   "skills": [
+    {
+     "skill": "Project Management",
+     "jobs": 112,
+     "share": 23.6,
+     "ph_jobs": 6,
+     "pay_uplift": -84800,
+     "median_pay_with": 563700,
+     "pay_n": 47
+    },
+    {
+     "skill": "Excel",
+     "jobs": 102,
+     "share": 21.5,
+     "ph_jobs": 6,
+     "pay_uplift": -323900,
+     "median_pay_with": 357600,
+     "pay_n": 52
+    },
+    {
+     "skill": "Microsoft Office",
+     "jobs": 95,
+     "share": 20.0,
+     "ph_jobs": 3,
+     "pay_uplift": -347800,
+     "median_pay_with": 366800,
+     "pay_n": 55
+    },
+    {
+     "skill": "Customer Service",
+     "jobs": 62,
+     "share": 13.1,
+     "ph_jobs": 4,
+     "pay_uplift": -178200,
+     "median_pay_with": 470200,
+     "pay_n": 33
+    },
+    {
+     "skill": "Salesforce",
+     "jobs": 41,
+     "share": 8.6,
+     "ph_jobs": 1,
+     "pay_uplift": 84000,
+     "median_pay_with": 700800,
+     "pay_n": 18
+    },
+    {
+     "skill": "CRM",
+     "jobs": 39,
+     "share": 8.2,
+     "ph_jobs": 7,
+     "pay_uplift": -224300,
+     "median_pay_with": 419600,
+     "pay_n": 18
+    },
+    {
+     "skill": "Negotiation",
+     "jobs": 39,
+     "share": 8.2,
+     "ph_jobs": 1,
+     "pay_uplift": -41400,
+     "median_pay_with": 593800,
+     "pay_n": 19
+    },
+    {
+     "skill": "Generative AI",
+     "jobs": 36,
+     "share": 7.6,
+     "ph_jobs": 3,
+     "pay_uplift": 346000,
+     "median_pay_with": 941500,
+     "pay_n": 19
+    },
+    {
+     "skill": "Jira",
+     "jobs": 34,
+     "share": 7.2,
+     "ph_jobs": 3,
+     "pay_uplift": 34100,
+     "median_pay_with": 660300,
+     "pay_n": 12
+    },
+    {
+     "skill": "Google Workspace",
+     "jobs": 29,
+     "share": 6.1,
+     "ph_jobs": 8,
+     "pay_uplift": -399400,
+     "median_pay_with": 236300,
+     "pay_n": 12
+    },
+    {
+     "skill": "Payroll",
+     "jobs": 25,
+     "share": 5.3,
+     "ph_jobs": 2,
+     "pay_uplift": 4900,
+     "median_pay_with": 635200,
+     "pay_n": 9
+    },
+    {
+     "skill": "SQL",
+     "jobs": 22,
+     "share": 4.6,
+     "ph_jobs": 2,
+     "pay_uplift": 148100,
+     "median_pay_with": 764800,
+     "pay_n": 12
+    },
+    {
+     "skill": "Data Entry",
+     "jobs": 22,
+     "share": 4.6,
+     "ph_jobs": 5,
+     "pay_uplift": -346400,
+     "median_pay_with": 289700,
+     "pay_n": 9
+    },
+    {
+     "skill": "Slack",
+     "jobs": 19,
+     "share": 4.0,
+     "ph_jobs": 2,
+     "pay_uplift": -30600,
+     "median_pay_with": 602200,
+     "pay_n": 10
+    },
+    {
+     "skill": "Google Cloud",
+     "jobs": 18,
+     "share": 3.8,
+     "ph_jobs": 0,
+     "pay_uplift": 238200,
+     "median_pay_with": 847000,
+     "pay_n": 11
+    }
+   ],
+   "pay": {
+    "Entry": {
+     "p25": 205800,
+     "median": 249400,
+     "p75": 454100,
+     "n": 24,
+     "level_specific": true
+    },
+    "Mid": {
+     "p25": 196200,
+     "median": 281400,
+     "p75": 356800,
+     "n": 44,
+     "level_specific": true
+    },
+    "Senior": {
+     "p25": 556000,
+     "median": 690000,
+     "p75": 900000,
+     "n": 102,
+     "level_specific": true
+    },
+    "Lead": {
+     "p25": 681600,
+     "median": 901800,
+     "p75": 1066600,
+     "n": 48,
+     "level_specific": true
+    }
+   }
+  },
+  "Customer Support": {
+   "jobs": 281,
+   "ph_jobs": 29,
+   "skills": [
+    {
+     "skill": "Customer Service",
+     "jobs": 170,
+     "share": 60.5,
+     "ph_jobs": 17,
+     "pay_uplift": -118700,
+     "median_pay_with": 318000,
+     "pay_n": 78
+    },
+    {
+     "skill": "CRM",
+     "jobs": 62,
+     "share": 22.1,
+     "ph_jobs": 8,
+     "pay_uplift": -43200,
+     "median_pay_with": 312500,
+     "pay_n": 26
+    },
+    {
+     "skill": "Account Management",
+     "jobs": 62,
+     "share": 22.1,
+     "ph_jobs": 5,
+     "pay_uplift": 281000,
+     "median_pay_with": 601700,
+     "pay_n": 23
+    },
+    {
+     "skill": "Microsoft Office",
+     "jobs": 53,
+     "share": 18.9,
+     "ph_jobs": 2,
+     "pay_uplift": -18400,
+     "median_pay_with": 341600,
+     "pay_n": 30
+    },
+    {
+     "skill": "Salesforce",
+     "jobs": 40,
+     "share": 14.2,
+     "ph_jobs": 2,
+     "pay_uplift": 128100,
+     "median_pay_with": 472200,
+     "pay_n": 23
+    },
+    {
+     "skill": "Excel",
+     "jobs": 39,
+     "share": 13.9,
+     "ph_jobs": 1,
+     "pay_uplift": -81100,
+     "median_pay_with": 286800,
+     "pay_n": 18
+    },
+    {
+     "skill": "Project Management",
+     "jobs": 34,
+     "share": 12.1,
+     "ph_jobs": 1,
+     "pay_uplift": 189200,
+     "median_pay_with": 517500,
+     "pay_n": 16
+    },
+    {
+     "skill": "Spanish",
+     "jobs": 27,
+     "share": 9.6,
+     "ph_jobs": 4,
+     "pay_uplift": -179800,
+     "median_pay_with": 188000,
+     "pay_n": 10
+    },
+    {
+     "skill": "Slack",
+     "jobs": 21,
+     "share": 7.5,
+     "ph_jobs": 1,
+     "pay_uplift": 112100,
+     "median_pay_with": 453700,
+     "pay_n": 13
+    },
+    {
+     "skill": "Zendesk",
+     "jobs": 19,
+     "share": 6.8,
+     "ph_jobs": 3,
+     "pay_uplift": -63700,
+     "median_pay_with": 292000,
+     "pay_n": 10
+    },
+    {
+     "skill": "Generative AI",
+     "jobs": 16,
+     "share": 5.7,
+     "ph_jobs": 2,
+     "pay_uplift": 124100,
+     "median_pay_with": 472200,
+     "pay_n": 13
+    },
+    {
+     "skill": "Negotiation",
+     "jobs": 15,
+     "share": 5.3,
+     "ph_jobs": 1,
+     "pay_uplift": null,
+     "median_pay_with": null,
+     "pay_n": 3
+    },
+    {
+     "skill": "SQL",
+     "jobs": 13,
+     "share": 4.6,
+     "ph_jobs": 1,
+     "pay_uplift": null,
+     "median_pay_with": null,
+     "pay_n": 6
+    },
+    {
+     "skill": "HubSpot",
+     "jobs": 13,
+     "share": 4.6,
+     "ph_jobs": 0,
+     "pay_uplift": null,
+     "median_pay_with": null,
+     "pay_n": 5
+    },
+    {
+     "skill": "Jira",
+     "jobs": 12,
+     "share": 4.3,
+     "ph_jobs": 2,
+     "pay_uplift": null,
+     "median_pay_with": null,
+     "pay_n": 6
+    }
+   ],
+   "pay": {
+    "Entry": {
+     "p25": 170200,
+     "median": 188900,
+     "p75": 294500,
+     "n": 26,
+     "level_specific": true
+    },
+    "Mid": {
+     "p25": 192600,
+     "median": 254000,
+     "p75": 356000,
+     "n": 36,
+     "level_specific": true
+    },
+    "Senior": {
+     "p25": 408800,
+     "median": 500600,
+     "p75": 632600,
+     "n": 55,
+     "level_specific": true
+    },
+    "Lead": {
+     "p25": 357700,
+     "median": 530600,
+     "p75": 843700,
+     "n": 14,
+     "level_specific": true
+    }
+   }
+  },
+  "Data & AI": {
+   "jobs": 470,
+   "ph_jobs": 21,
+   "skills": [
+    {
+     "skill": "Python",
+     "jobs": 157,
+     "share": 33.4,
+     "ph_jobs": 9,
+     "pay_uplift": 70100,
+     "median_pay_with": 731900,
+     "pay_n": 94
+    },
+    {
+     "skill": "SQL",
+     "jobs": 148,
+     "share": 31.5,
+     "ph_jobs": 7,
+     "pay_uplift": 21800,
+     "median_pay_with": 711800,
+     "pay_n": 81
+    },
+    {
+     "skill": "Generative AI",
+     "jobs": 87,
+     "share": 18.5,
+     "ph_jobs": 5,
+     "pay_uplift": 166300,
+     "median_pay_with": 849200,
+     "pay_n": 38
+    },
+    {
+     "skill": "Excel",
+     "jobs": 77,
+     "share": 16.4,
+     "ph_jobs": 2,
+     "pay_uplift": -161400,
+     "median_pay_with": 553200,
+     "pay_n": 32
+    },
+    {
+     "skill": "Machine Learning",
+     "jobs": 77,
+     "share": 16.4,
+     "ph_jobs": 4,
+     "pay_uplift": 277700,
+     "median_pay_with": 939400,
+     "pay_n": 46
+    },
+    {
+     "skill": "Statistics",
+     "jobs": 66,
+     "share": 14.0,
+     "ph_jobs": 6,
+     "pay_uplift": -15300,
+     "median_pay_with": 686100,
+     "pay_n": 36
+    },
+    {
+     "skill": "Google Cloud",
+     "jobs": 60,
+     "share": 12.8,
+     "ph_jobs": 1,
+     "pay_uplift": 92600,
+     "median_pay_with": 794000,
+     "pay_n": 33
+    },
+    {
+     "skill": "AWS",
+     "jobs": 57,
+     "share": 12.1,
+     "ph_jobs": 2,
+     "pay_uplift": 105900,
+     "median_pay_with": 807300,
+     "pay_n": 20
+    },
+    {
+     "skill": "Azure",
+     "jobs": 55,
+     "share": 11.7,
+     "ph_jobs": 4,
+     "pay_uplift": 93400,
+     "median_pay_with": 787400,
+     "pay_n": 24
+    },
+    {
+     "skill": "Tableau",
+     "jobs": 51,
+     "share": 10.9,
+     "ph_jobs": 2,
+     "pay_uplift": -146900,
+     "median_pay_with": 567800,
+     "pay_n": 24
+    },
+    {
+     "skill": "Git",
+     "jobs": 49,
+     "share": 10.4,
+     "ph_jobs": 0,
+     "pay_uplift": 51000,
+     "median_pay_with": 745100,
+     "pay_n": 22
+    },
+    {
+     "skill": "Power BI",
+     "jobs": 49,
+     "share": 10.4,
+     "ph_jobs": 0,
+     "pay_uplift": -180400,
+     "median_pay_with": 534300,
+     "pay_n": 22
+    },
+    {
+     "skill": "Customer Service",
+     "jobs": 46,
+     "share": 9.8,
+     "ph_jobs": 1,
+     "pay_uplift": 64600,
+     "median_pay_with": 758600,
+     "pay_n": 28
+    },
+    {
+     "skill": "Microsoft Office",
+     "jobs": 46,
+     "share": 9.8,
+     "ph_jobs": 1,
+     "pay_uplift": -185400,
+     "median_pay_with": 529200,
+     "pay_n": 25
+    },
+    {
+     "skill": "Spark",
+     "jobs": 42,
+     "share": 8.9,
+     "ph_jobs": 0,
+     "pay_uplift": 70900,
+     "median_pay_with": 765000,
+     "pay_n": 18
+    }
+   ],
+   "pay": {
+    "Entry": {
+     "p25": 223600,
+     "median": 259200,
+     "p75": 418200,
+     "n": 17,
+     "level_specific": true
+    },
+    "Mid": {
+     "p25": 379300,
+     "median": 476400,
+     "p75": 721800,
+     "n": 50,
+     "level_specific": true
+    },
+    "Senior": {
+     "p25": 525800,
+     "median": 711800,
+     "p75": 900000,
+     "n": 123,
+     "level_specific": true
+    },
+    "Lead": {
+     "p25": 781400,
+     "median": 939400,
+     "p75": 1106400,
+     "n": 45,
+     "level_specific": true
+    }
+   }
+  },
+  "Design & Creative": {
+   "jobs": 88,
+   "ph_jobs": 15,
+   "skills": [
+    {
+     "skill": "Figma",
+     "jobs": 31,
+     "share": 35.2,
+     "ph_jobs": 5,
+     "pay_uplift": 64400,
+     "median_pay_with": 602700,
+     "pay_n": 11
+    },
+    {
+     "skill": "Photoshop",
+     "jobs": 17,
+     "share": 19.3,
+     "ph_jobs": 4,
+     "pay_uplift": null,
+     "median_pay_with": null,
+     "pay_n": 5
+    },
+    {
+     "skill": "Generative AI",
+     "jobs": 16,
+     "share": 18.2,
+     "ph_jobs": 3,
+     "pay_uplift": null,
+     "median_pay_with": null,
+     "pay_n": 7
+    },
+    {
+     "skill": "Illustrator",
+     "jobs": 12,
+     "share": 13.6,
+     "ph_jobs": 3,
+     "pay_uplift": null,
+     "median_pay_with": null,
+     "pay_n": 3
+    },
+    {
+     "skill": "Customer Service",
+     "jobs": 8,
+     "share": 9.1,
+     "ph_jobs": 4,
+     "pay_uplift": null,
+     "median_pay_with": null,
+     "pay_n": 2
+    },
+    {
+     "skill": "Microsoft Office",
+     "jobs": 6,
+     "share": 6.8,
+     "ph_jobs": 1,
+     "pay_uplift": null,
+     "median_pay_with": null,
+     "pay_n": 3
+    },
+    {
+     "skill": "Project Management",
+     "jobs": 5,
+     "share": 5.7,
+     "ph_jobs": 1,
+     "pay_uplift": null,
+     "median_pay_with": null,
+     "pay_n": 1
+    },
+    {
+     "skill": "Excel",
+     "jobs": 5,
+     "share": 5.7,
+     "ph_jobs": 0,
+     "pay_uplift": null,
+     "median_pay_with": null,
+     "pay_n": 4
+    },
+    {
+     "skill": "SEO",
+     "jobs": 4,
+     "share": 4.5,
+     "ph_jobs": 0,
+     "pay_uplift": null,
+     "median_pay_with": null,
+     "pay_n": 2
+    },
+    {
+     "skill": "Video Editing",
+     "jobs": 4,
+     "share": 4.5,
+     "ph_jobs": 2,
+     "pay_uplift": null,
+     "median_pay_with": null,
+     "pay_n": 1
+    },
+    {
+     "skill": "Content Writing",
+     "jobs": 4,
+     "share": 4.5,
+     "ph_jobs": 0,
+     "pay_uplift": null,
+     "median_pay_with": null,
+     "pay_n": 0
+    },
+    {
+     "skill": "WordPress",
+     "jobs": 4,
+     "share": 4.5,
+     "ph_jobs": 1,
+     "pay_uplift": null,
+     "median_pay_with": null,
+     "pay_n": 1
+    },
+    {
+     "skill": "Azure",
+     "jobs": 4,
+     "share": 4.5,
+     "ph_jobs": 0,
+     "pay_uplift": null,
+     "median_pay_with": null,
+     "pay_n": 1
+    },
+    {
+     "skill": "Premiere Pro",
+     "jobs": 4,
+     "share": 4.5,
+     "ph_jobs": 0,
+     "pay_uplift": null,
+     "median_pay_with": null,
+     "pay_n": 1
+    },
+    {
+     "skill": "React",
+     "jobs": 4,
+     "share": 4.5,
+     "ph_jobs": 1,
+     "pay_uplift": null,
+     "median_pay_with": null,
+     "pay_n": 1
+    }
+   ],
+   "pay": {
+    "Entry": {
+     "p25": 423200,
+     "median": 594900,
+     "p75": 754900,
+     "n": 28,
+     "level_specific": false
+    },
+    "Mid": {
+     "p25": 423200,
+     "median": 594900,
+     "p75": 754900,
+     "n": 28,
+     "level_specific": false
+    },
+    "Senior": {
+     "p25": 500000,
+     "median": 588300,
+     "p75": 656900,
+     "n": 14,
+     "level_specific": true
+    },
+    "Lead": {
+     "p25": 423200,
+     "median": 594900,
+     "p75": 754900,
+     "n": 28,
+     "level_specific": false
+    }
+   }
+  },
+  "Engineering": {
+   "jobs": 1184,
+   "ph_jobs": 112,
+   "skills": [
+    {
+     "skill": "Python",
+     "jobs": 279,
+     "share": 23.6,
+     "ph_jobs": 35,
+     "pay_uplift": -200,
+     "median_pay_with": 727700,
+     "pay_n": 113
+    },
+    {
+     "skill": "AWS",
+     "jobs": 265,
+     "share": 22.4,
+     "ph_jobs": 23,
+     "pay_uplift": 132400,
+     "median_pay_with": 820600,
+     "pay_n": 113
+    },
+    {
+     "skill": "Git",
+     "jobs": 204,
+     "share": 17.2,
+     "ph_jobs": 23,
+     "pay_uplift": 33600,
+     "median_pay_with": 761000,
+     "pay_n": 86
+    },
+    {
+     "skill": "Azure",
+     "jobs": 194,
+     "share": 16.4,
+     "ph_jobs": 9,
+     "pay_uplift": 66200,
+     "median_pay_with": 780800,
+     "pay_n": 80
+    },
+    {
+     "skill": "Kubernetes",
+     "jobs": 176,
+     "share": 14.9,
+     "ph_jobs": 17,
+     "pay_uplift": 129800,
+     "median_pay_with": 831300,
+     "pay_n": 81
+    },
+    {
+     "skill": "SQL",
+     "jobs": 157,
+     "share": 13.3,
+     "ph_jobs": 7,
+     "pay_uplift": -90200,
+     "median_pay_with": 661800,
+     "pay_n": 75
+    },
+    {
+     "skill": "JavaScript",
+     "jobs": 156,
+     "share": 13.2,
+     "ph_jobs": 20,
+     "pay_uplift": -13200,
+     "median_pay_with": 714600,
+     "pay_n": 67
+    },
+    {
+     "skill": "Generative AI",
+     "jobs": 155,
+     "share": 13.1,
+     "ph_jobs": 20,
+     "pay_uplift": 184200,
+     "median_pay_with": 898900,
+     "pay_n": 67
+    },
+    {
+     "skill": "React",
+     "jobs": 146,
+     "share": 12.3,
+     "ph_jobs": 11,
+     "pay_uplift": 90700,
+     "median_pay_with": 806600,
+     "pay_n": 58
+    },
+    {
+     "skill": "TypeScript",
+     "jobs": 139,
+     "share": 11.7,
+     "ph_jobs": 18,
+     "pay_uplift": 90700,
+     "median_pay_with": 806600,
+     "pay_n": 54
+    },
+    {
+     "skill": "Google Cloud",
+     "jobs": 135,
+     "share": 11.4,
+     "ph_jobs": 10,
+     "pay_uplift": 117900,
+     "median_pay_with": 832600,
+     "pay_n": 54
+    },
+    {
+     "skill": "Java",
+     "jobs": 127,
+     "share": 10.7,
+     "ph_jobs": 17,
+     "pay_uplift": -8400,
+     "median_pay_with": 719600,
+     "pay_n": 58
+    },
+    {
+     "skill": "Docker",
+     "jobs": 119,
+     "share": 10.1,
+     "ph_jobs": 18,
+     "pay_uplift": 27900,
+     "median_pay_with": 755300,
+     "pay_n": 44
+    },
+    {
+     "skill": "Terraform",
+     "jobs": 117,
+     "share": 9.9,
+     "ph_jobs": 12,
+     "pay_uplift": 145600,
+     "median_pay_with": 860200,
+     "pay_n": 49
+    },
+    {
+     "skill": "QA Testing",
+     "jobs": 94,
+     "share": 7.9,
+     "ph_jobs": 8,
+     "pay_uplift": 26700,
+     "median_pay_with": 754400,
+     "pay_n": 43
+    }
+   ],
+   "pay": {
+    "Entry": {
+     "p25": 264700,
+     "median": 415600,
+     "p75": 479400,
+     "n": 17,
+     "level_specific": true
+    },
+    "Mid": {
+     "p25": 222300,
+     "median": 512200,
+     "p75": 721300,
+     "n": 88,
+     "level_specific": true
+    },
+    "Senior": {
+     "p25": 608800,
+     "median": 727900,
+     "p75": 900000,
+     "n": 251,
+     "level_specific": true
+    },
+    "Lead": {
+     "p25": 805200,
+     "median": 998000,
+     "p75": 1220900,
+     "n": 92,
+     "level_specific": true
+    }
+   }
+  },
+  "Finance & HR": {
+   "jobs": 250,
+   "ph_jobs": 25,
+   "skills": [
+    {
+     "skill": "Excel",
+     "jobs": 70,
+     "share": 28.0,
+     "ph_jobs": 11,
+     "pay_uplift": -40100,
+     "median_pay_with": 525400,
+     "pay_n": 32
+    },
+    {
+     "skill": "Recruiting",
+     "jobs": 51,
+     "share": 20.4,
+     "ph_jobs": 6,
+     "pay_uplift": 172500,
+     "median_pay_with": 720000,
+     "pay_n": 11
+    },
+    {
+     "skill": "Payroll",
+     "jobs": 43,
+     "share": 17.2,
+     "ph_jobs": 5,
+     "pay_uplift": -231000,
+     "median_pay_with": 377800,
+     "pay_n": 11
+    },
+    {
+     "skill": "Microsoft Office",
+     "jobs": 36,
+     "share": 14.4,
+     "ph_jobs": 8,
+     "pay_uplift": -440500,
+     "median_pay_with": 250400,
+     "pay_n": 22
+    },
+    {
+     "skill": "Customer Service",
+     "jobs": 31,
+     "share": 12.4,
+     "ph_jobs": 4,
+     "pay_uplift": -380100,
+     "median_pay_with": 310800,
+     "pay_n": 18
+    },
+    {
+     "skill": "Google Workspace",
+     "jobs": 23,
+     "share": 9.2,
+     "ph_jobs": 3,
+     "pay_uplift": 113800,
+     "median_pay_with": 643200,
+     "pay_n": 8
+    },
+    {
+     "skill": "Accounts Payable",
+     "jobs": 21,
+     "share": 8.4,
+     "ph_jobs": 6,
+     "pay_uplift": null,
+     "median_pay_with": null,
+     "pay_n": 5
+    },
+    {
+     "skill": "Negotiation",
+     "jobs": 19,
+     "share": 7.6,
+     "ph_jobs": 0,
+     "pay_uplift": -272300,
+     "median_pay_with": 308200,
+     "pay_n": 9
+    },
+    {
+     "skill": "Project Management",
+     "jobs": 16,
+     "share": 6.4,
+     "ph_jobs": 2,
+     "pay_uplift": 238800,
+     "median_pay_with": 768100,
+     "pay_n": 12
+    },
+    {
+     "skill": "Salesforce",
+     "jobs": 14,
+     "share": 5.6,
+     "ph_jobs": 2,
+     "pay_uplift": 79400,
+     "median_pay_with": 608800,
+     "pay_n": 9
+    },
+    {
+     "skill": "Workday",
+     "jobs": 13,
+     "share": 5.2,
+     "ph_jobs": 2,
+     "pay_uplift": null,
+     "median_pay_with": null,
+     "pay_n": 3
+    },
+    {
+     "skill": "Generative AI",
+     "jobs": 13,
+     "share": 5.2,
+     "ph_jobs": 4,
+     "pay_uplift": 536100,
+     "median_pay_with": 1052300,
+     "pay_n": 8
+    },
+    {
+     "skill": "Spanish",
+     "jobs": 12,
+     "share": 4.8,
+     "ph_jobs": 0,
+     "pay_uplift": null,
+     "median_pay_with": null,
+     "pay_n": 6
+    },
+    {
+     "skill": "QuickBooks",
+     "jobs": 11,
+     "share": 4.4,
+     "ph_jobs": 3,
+     "pay_uplift": null,
+     "median_pay_with": null,
+     "pay_n": 1
+    },
+    {
+     "skill": "Bookkeeping",
+     "jobs": 11,
+     "share": 4.4,
+     "ph_jobs": 6,
+     "pay_uplift": null,
+     "median_pay_with": null,
+     "pay_n": 1
+    }
+   ],
+   "pay": {
+    "Entry": {
+     "p25": 310800,
+     "median": 565600,
+     "p75": 907400,
+     "n": 107,
+     "level_specific": false
+    },
+    "Mid": {
+     "p25": 183000,
+     "median": 264300,
+     "p75": 402200,
+     "n": 33,
+     "level_specific": true
+    },
+    "Senior": {
+     "p25": 474600,
+     "median": 697500,
+     "p75": 898000,
+     "n": 46,
+     "level_specific": true
+    },
+    "Lead": {
+     "p25": 661500,
+     "median": 912000,
+     "p75": 1177900,
+     "n": 22,
+     "level_specific": true
+    }
+   }
+  },
+  "Marketing": {
+   "jobs": 283,
+   "ph_jobs": 23,
+   "skills": [
+    {
+     "skill": "Content Writing",
+     "jobs": 60,
+     "share": 21.2,
+     "ph_jobs": 5,
+     "pay_uplift": 15700,
+     "median_pay_with": 615400,
+     "pay_n": 22
+    },
+    {
+     "skill": "SEO",
+     "jobs": 60,
+     "share": 21.2,
+     "ph_jobs": 7,
+     "pay_uplift": -198000,
+     "median_pay_with": 450000,
+     "pay_n": 25
+    },
+    {
+     "skill": "Project Management",
+     "jobs": 43,
+     "share": 15.2,
+     "ph_jobs": 1,
+     "pay_uplift": -223600,
+     "median_pay_with": 437100,
+     "pay_n": 24
+    },
+    {
+     "skill": "CRM",
+     "jobs": 39,
+     "share": 13.8,
+     "ph_jobs": 2,
+     "pay_uplift": -33400,
+     "median_pay_with": 593200,
+     "pay_n": 16
+    },
+    {
+     "skill": "Google Ads",
+     "jobs": 30,
+     "share": 10.6,
+     "ph_jobs": 2,
+     "pay_uplift": -89800,
+     "median_pay_with": 536700,
+     "pay_n": 10
+    },
+    {
+     "skill": "Excel",
+     "jobs": 29,
+     "share": 10.2,
+     "ph_jobs": 2,
+     "pay_uplift": -86400,
+     "median_pay_with": 531200,
+     "pay_n": 13
+    },
+    {
+     "skill": "Social Media Management",
+     "jobs": 28,
+     "share": 9.9,
+     "ph_jobs": 3,
+     "pay_uplift": -315000,
+     "median_pay_with": 320300,
+     "pay_n": 8
+    },
+    {
+     "skill": "Google Analytics",
+     "jobs": 26,
+     "share": 9.2,
+     "ph_jobs": 2,
+     "pay_uplift": -300400,
+     "median_pay_with": 330600,
+     "pay_n": 9
+    },
+    {
+     "skill": "Canva",
+     "jobs": 26,
+     "share": 9.2,
+     "ph_jobs": 5,
+     "pay_uplift": -332200,
+     "median_pay_with": 309700,
+     "pay_n": 11
+    },
+    {
+     "skill": "Generative AI",
+     "jobs": 25,
+     "share": 8.8,
+     "ph_jobs": 1,
+     "pay_uplift": 221000,
+     "median_pay_with": 790100,
+     "pay_n": 12
+    },
+    {
+     "skill": "HubSpot",
+     "jobs": 23,
+     "share": 8.1,
+     "ph_jobs": 2,
+     "pay_uplift": -17600,
+     "median_pay_with": 595600,
+     "pay_n": 9
+    },
+    {
+     "skill": "Microsoft Office",
+     "jobs": 21,
+     "share": 7.4,
+     "ph_jobs": 2,
+     "pay_uplift": -158800,
+     "median_pay_with": 476400,
+     "pay_n": 11
+    },
+    {
+     "skill": "Salesforce",
+     "jobs": 21,
+     "share": 7.4,
+     "ph_jobs": 1,
+     "pay_uplift": 87700,
+     "median_pay_with": 678500,
+     "pay_n": 8
+    },
+    {
+     "skill": "Meta Ads",
+     "jobs": 21,
+     "share": 7.4,
+     "ph_jobs": 2,
+     "pay_uplift": null,
+     "median_pay_with": null,
+     "pay_n": 3
+    },
+    {
+     "skill": "Lead Generation",
+     "jobs": 18,
+     "share": 6.4,
+     "ph_jobs": 2,
+     "pay_uplift": null,
+     "median_pay_with": null,
+     "pay_n": 6
+    }
+   ],
+   "pay": {
+    "Entry": {
+     "p25": 330800,
+     "median": 599800,
+     "p75": 796800,
+     "n": 109,
+     "level_specific": false
+    },
+    "Mid": {
+     "p25": 259700,
+     "median": 335400,
+     "p75": 455500,
+     "n": 26,
+     "level_specific": true
+    },
+    "Senior": {
+     "p25": 469800,
+     "median": 635300,
+     "p75": 745000,
+     "n": 44,
+     "level_specific": true
+    },
+    "Lead": {
+     "p25": 688200,
+     "median": 938300,
+     "p75": 1215600,
+     "n": 30,
+     "level_specific": true
+    }
+   }
+  },
+  "Sales": {
+   "jobs": 723,
+   "ph_jobs": 39,
+   "skills": [
+    {
+     "skill": "CRM",
+     "jobs": 272,
+     "share": 37.6,
+     "ph_jobs": 17,
+     "pay_uplift": -140300,
+     "median_pay_with": 555800,
+     "pay_n": 120
+    },
+    {
+     "skill": "Negotiation",
+     "jobs": 208,
+     "share": 28.8,
+     "ph_jobs": 7,
+     "pay_uplift": 800,
+     "median_pay_with": 636000,
+     "pay_n": 83
+    },
+    {
+     "skill": "Salesforce",
+     "jobs": 207,
+     "share": 28.6,
+     "ph_jobs": 9,
+     "pay_uplift": -13500,
+     "median_pay_with": 635000,
+     "pay_n": 102
+    },
+    {
+     "skill": "Account Management",
+     "jobs": 153,
+     "share": 21.2,
+     "ph_jobs": 6,
+     "pay_uplift": -132400,
+     "median_pay_with": 529400,
+     "pay_n": 67
+    },
+    {
+     "skill": "Customer Service",
+     "jobs": 89,
+     "share": 12.3,
+     "ph_jobs": 3,
+     "pay_uplift": -154900,
+     "median_pay_with": 500000,
+     "pay_n": 48
+    },
+    {
+     "skill": "Microsoft Office",
+     "jobs": 76,
+     "share": 10.5,
+     "ph_jobs": 1,
+     "pay_uplift": -60900,
+     "median_pay_with": 587600,
+     "pay_n": 39
+    },
+    {
+     "skill": "Excel",
+     "jobs": 74,
+     "share": 10.2,
+     "ph_jobs": 3,
+     "pay_uplift": -60900,
+     "median_pay_with": 587600,
+     "pay_n": 39
+    },
+    {
+     "skill": "Cold Calling",
+     "jobs": 66,
+     "share": 9.1,
+     "ph_jobs": 5,
+     "pay_uplift": -268600,
+     "median_pay_with": 393100,
+     "pay_n": 36
+    },
+    {
+     "skill": "Lead Generation",
+     "jobs": 65,
+     "share": 9.0,
+     "ph_jobs": 5,
+     "pay_uplift": -92600,
+     "median_pay_with": 555800,
+     "pay_n": 29
+    },
+    {
+     "skill": "HubSpot",
+     "jobs": 56,
+     "share": 7.7,
+     "ph_jobs": 6,
+     "pay_uplift": -46700,
+     "median_pay_with": 595600,
+     "pay_n": 26
+    },
+    {
+     "skill": "Project Management",
+     "jobs": 47,
+     "share": 6.5,
+     "ph_jobs": 1,
+     "pay_uplift": 109100,
+     "median_pay_with": 743800,
+     "pay_n": 27
+    },
+    {
+     "skill": "Generative AI",
+     "jobs": 41,
+     "share": 5.7,
+     "ph_jobs": 4,
+     "pay_uplift": 180500,
+     "median_pay_with": 815800,
+     "pay_n": 19
+    },
+    {
+     "skill": "Spanish",
+     "jobs": 24,
+     "share": 3.3,
+     "ph_jobs": 1,
+     "pay_uplift": null,
+     "median_pay_with": null,
+     "pay_n": 7
+    },
+    {
+     "skill": "Git",
+     "jobs": 23,
+     "share": 3.2,
+     "ph_jobs": 1,
+     "pay_uplift": null,
+     "median_pay_with": null,
+     "pay_n": 4
+    },
+    {
+     "skill": "Spark",
+     "jobs": 19,
+     "share": 2.6,
+     "ph_jobs": 2,
+     "pay_uplift": null,
+     "median_pay_with": null,
+     "pay_n": 5
+    }
+   ],
+   "pay": {
+    "Entry": {
+     "p25": 269400,
+     "median": 344100,
+     "p75": 521500,
+     "n": 23,
+     "level_specific": true
+    },
+    "Mid": {
+     "p25": 350900,
+     "median": 396800,
+     "p75": 616000,
+     "n": 52,
+     "level_specific": true
+    },
+    "Senior": {
+     "p25": 489700,
+     "median": 656400,
+     "p75": 860200,
+     "n": 129,
+     "level_specific": true
+    },
+    "Lead": {
+     "p25": 590200,
+     "median": 762300,
+     "p75": 1191800,
+     "n": 100,
+     "level_specific": true
+    }
+   }
+  }
+ },
+ "all_skills": [
+  "AWS",
+  "Account Management",
+  "Accounts Payable",
+  "After Effects",
+  "Amazon Seller Central",
+  "Asana",
+  "Azure",
+  "Bookkeeping",
+  "C#",
+  "CRM",
+  "Calendar Management",
+  "Canva",
+  "ClickUp",
+  "Cold Calling",
+  "Cold Email",
+  "Content Writing",
+  "Customer Service",
+  "Data Entry",
+  "Docker",
+  "Email Marketing",
+  "Excel",
+  "Figma",
+  "Freshdesk",
+  "Generative AI",
+  "Git",
+  "Go",
+  "GoHighLevel",
+  "Google Ads",
+  "Google Analytics",
+  "Google Cloud",
+  "Google Workspace",
+  "Gorgias",
+  "HubSpot",
+  "Illustrator",
+  "Intercom",
+  "Java",
+  "JavaScript",
+  "Jira",
+  "Klaviyo",
+  "Kubernetes",
+  "Lead Generation",
+  "Linux",
+  "Looker",
+  "Machine Learning",
+  "Mailchimp",
+  "Make.com",
+  "Meta Ads",
+  "Microsoft Office",
+  "Monday.com",
+  "Negotiation",
+  "Node.js",
+  "Notion",
+  "PHP",
+  "Payroll",
+  "Photoshop",
+  "Power BI",
+  "Premiere Pro",
+  "Project Management",
+  "Python",
+  "QA Testing",
+  "QuickBooks",
+  "R",
+  "React",
+  "Recruiting",
+  "Ruby on Rails",
+  "SEO",
+  "SQL",
+  "Salesforce",
+  "Shopify",
+  "Slack",
+  "Snowflake",
+  "Social Media Management",
+  "Spanish",
+  "Spark",
+  "Statistics",
+  "Tableau",
+  "Terraform",
+  "Ticketing Systems",
+  "Trello",
+  "TypeScript",
+  "UX Research",
+  "Video Editing",
+  "WordPress",
+  "Workday",
+  "Xero",
+  "Zapier",
+  "Zendesk",
+  "dbt"
+ ]
+}

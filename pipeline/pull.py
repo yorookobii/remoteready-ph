@@ -74,13 +74,15 @@ def main() -> int:
     out = RAW_DIR / f"snapshot_{date.today().isoformat()}{suffix}.csv"
     df.to_csv(out, index=False, encoding="utf-8")
 
-    has_salary = df["salary_min"].notna() | (df["salary_raw"].str.len() > 0)
+    # A number must be present: Himalayas fills in a currency even when there's no amount.
+    has_salary = (pd.to_numeric(df["salary_min"], errors="coerce") > 0) | df["salary_raw"].fillna("").str.contains(r"\d")
+    has_salary &= df["source"].ne("himalayas") | (pd.to_numeric(df["salary_min"], errors="coerce") > 0)
     va_like = df["title"].str.contains(VA_WORDS, na=False)
     print("\n" + "=" * 52)
     print(f"Saved {len(df)} jobs to {out.relative_to(ROOT)}  ({before - len(df)} duplicates dropped)")
     print("\nRows per source:")
     print(df["source"].value_counts().to_string())
-    print(f"\nWith any salary info: {has_salary.mean():.0%}")
+    print(f"\nWith a salary amount: {has_salary.mean():.0%}")
     print(f"VA / admin / support-like titles: {va_like.sum()} ({va_like.mean():.0%})")
     if failed:
         print(f"\nFailed sources: {', '.join(failed)} (the snapshot is still usable)")

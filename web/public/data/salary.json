@@ -1,0 +1,523 @@
+{
+ "overall": {
+  "n": 1772,
+  "p10": 226800,
+  "p25": 396900,
+  "median": 649500,
+  "p75": 900000,
+  "p90": 1152600,
+  "low_sample": false
+ },
+ "ph_accessible": {
+  "n": 57,
+  "p10": 55900,
+  "p25": 71200,
+  "median": 127000,
+  "p75": 635200,
+  "p90": 1423000,
+  "low_sample": false
+ },
+ "not_ph_accessible": {
+  "n": 1715,
+  "p10": 254100,
+  "p25": 406600,
+  "median": 661100,
+  "p75": 900000,
+  "p90": 1143000,
+  "low_sample": false
+ },
+ "by_role": [
+  {
+   "role": "Engineering",
+   "n": 448,
+   "p10": 281900,
+   "p25": 502900,
+   "median": 727900,
+   "p75": 940600,
+   "p90": 1194800,
+   "low_sample": false
+  },
+  {
+   "role": "Data & AI",
+   "n": 235,
+   "p10": 317600,
+   "p25": 454500,
+   "median": 701400,
+   "p75": 926400,
+   "p90": 1085000,
+   "low_sample": false
+  },
+  {
+   "role": "Sales",
+   "n": 304,
+   "p10": 319500,
+   "p25": 416500,
+   "median": 636000,
+   "p75": 864500,
+   "p90": 1346700,
+   "low_sample": false
+  },
+  {
+   "role": "Admin & Operations",
+   "n": 218,
+   "p10": 218300,
+   "p25": 350700,
+   "median": 632800,
+   "p75": 900000,
+   "p90": 1078200,
+   "low_sample": false
+  },
+  {
+   "role": "Marketing",
+   "n": 109,
+   "p10": 182000,
+   "p25": 330800,
+   "median": 599800,
+   "p75": 796800,
+   "p90": 1122600,
+   "low_sample": false
+  },
+  {
+   "role": "Design & Creative",
+   "n": 28,
+   "p10": 191900,
+   "p25": 423200,
+   "median": 594900,
+   "p75": 754900,
+   "p90": 981000,
+   "low_sample": false
+  },
+  {
+   "role": "Other",
+   "n": 192,
+   "p10": 245000,
+   "p25": 370600,
+   "median": 577700,
+   "p75": 965700,
+   "p90": 1422500,
+   "low_sample": false
+  },
+  {
+   "role": "Finance & HR",
+   "n": 107,
+   "p10": 189100,
+   "p25": 310800,
+   "median": 565600,
+   "p75": 907400,
+   "p90": 1087200,
+   "low_sample": false
+  },
+  {
+   "role": "Customer Support",
+   "n": 131,
+   "p10": 157600,
+   "p25": 211900,
+   "median": 354700,
+   "p75": 529400,
+   "p90": 791400,
+   "low_sample": false
+  }
+ ],
+ "by_seniority": [
+  {
+   "seniority": "Entry",
+   "n": 152,
+   "p10": 103200,
+   "p25": 190200,
+   "median": 304600,
+   "p75": 482100,
+   "p90": 838000,
+   "low_sample": false
+  },
+  {
+   "seniority": "Mid",
+   "n": 405,
+   "p10": 127100,
+   "p25": 254100,
+   "median": 388600,
+   "p75": 604400,
+   "p90": 938300,
+   "low_sample": false
+  },
+  {
+   "seniority": "Senior",
+   "n": 818,
+   "p10": 369600,
+   "p25": 502900,
+   "median": 679300,
+   "p75": 867300,
+   "p90": 1038300,
+   "low_sample": false
+  },
+  {
+   "seniority": "Lead",
+   "n": 397,
+   "p10": 450000,
+   "p25": 688200,
+   "median": 926400,
+   "p75": 1174200,
+   "p90": 1458400,
+   "low_sample": false
+  }
+ ],
+ "by_job_type": [
+  {
+   "type": "Contract",
+   "n": 108,
+   "p10": 81300,
+   "p25": 147000,
+   "median": 304900,
+   "p75": 711500,
+   "p90": 1188700,
+   "low_sample": false
+  },
+  {
+   "type": "Full-time",
+   "n": 1616,
+   "p10": 270300,
+   "p25": 423500,
+   "median": 661800,
+   "p75": 907900,
+   "p90": 1164400,
+   "low_sample": false
+  },
+  {
+   "type": "Internship",
+   "n": 13,
+   "p10": 34400,
+   "p25": 34400,
+   "median": 183000,
+   "p75": 265000,
+   "p90": 348300,
+   "low_sample": true
+  },
+  {
+   "type": "Part-time",
+   "n": 35,
+   "p10": 103700,
+   "p25": 177900,
+   "median": 253800,
+   "p75": 355700,
+   "p90": 510000,
+   "low_sample": false
+  }
+ ],
+ "table": [
+  {
+   "role": "Admin & Operations",
+   "seniority": "Entry",
+   "n": 24,
+   "median": 249400,
+   "p25": 205800,
+   "p75": 454100,
+   "low_sample": false
+  },
+  {
+   "role": "Admin & Operations",
+   "seniority": "Mid",
+   "n": 44,
+   "median": 281400,
+   "p25": 196200,
+   "p75": 356800,
+   "low_sample": false
+  },
+  {
+   "role": "Admin & Operations",
+   "seniority": "Senior",
+   "n": 102,
+   "median": 690000,
+   "p25": 556000,
+   "p75": 900000,
+   "low_sample": false
+  },
+  {
+   "role": "Admin & Operations",
+   "seniority": "Lead",
+   "n": 48,
+   "median": 901800,
+   "p25": 681600,
+   "p75": 1066600,
+   "low_sample": false
+  },
+  {
+   "role": "Customer Support",
+   "seniority": "Entry",
+   "n": 26,
+   "median": 188900,
+   "p25": 170200,
+   "p75": 294500,
+   "low_sample": false
+  },
+  {
+   "role": "Customer Support",
+   "seniority": "Mid",
+   "n": 36,
+   "median": 254000,
+   "p25": 192600,
+   "p75": 356000,
+   "low_sample": false
+  },
+  {
+   "role": "Customer Support",
+   "seniority": "Senior",
+   "n": 55,
+   "median": 500600,
+   "p25": 408800,
+   "p75": 632600,
+   "low_sample": false
+  },
+  {
+   "role": "Customer Support",
+   "seniority": "Lead",
+   "n": 14,
+   "median": 530600,
+   "p25": 357700,
+   "p75": 843700,
+   "low_sample": true
+  },
+  {
+   "role": "Data & AI",
+   "seniority": "Entry",
+   "n": 17,
+   "median": 259200,
+   "p25": 223600,
+   "p75": 418200,
+   "low_sample": true
+  },
+  {
+   "role": "Data & AI",
+   "seniority": "Mid",
+   "n": 50,
+   "median": 476400,
+   "p25": 379300,
+   "p75": 721800,
+   "low_sample": false
+  },
+  {
+   "role": "Data & AI",
+   "seniority": "Senior",
+   "n": 123,
+   "median": 711800,
+   "p25": 525800,
+   "p75": 900000,
+   "low_sample": false
+  },
+  {
+   "role": "Data & AI",
+   "seniority": "Lead",
+   "n": 45,
+   "median": 939400,
+   "p25": 781400,
+   "p75": 1106400,
+   "low_sample": false
+  },
+  {
+   "role": "Design & Creative",
+   "seniority": "Mid",
+   "n": 9,
+   "median": 398400,
+   "p25": 264400,
+   "p75": 621000,
+   "low_sample": true
+  },
+  {
+   "role": "Design & Creative",
+   "seniority": "Senior",
+   "n": 14,
+   "median": 588300,
+   "p25": 500000,
+   "p75": 656900,
+   "low_sample": true
+  },
+  {
+   "role": "Design & Creative",
+   "seniority": "Lead",
+   "n": 5,
+   "median": 938000,
+   "p25": 767600,
+   "p75": 1081200,
+   "low_sample": true
+  },
+  {
+   "role": "Engineering",
+   "seniority": "Entry",
+   "n": 17,
+   "median": 415600,
+   "p25": 264700,
+   "p75": 479400,
+   "low_sample": true
+  },
+  {
+   "role": "Engineering",
+   "seniority": "Mid",
+   "n": 88,
+   "median": 512200,
+   "p25": 222300,
+   "p75": 721300,
+   "low_sample": false
+  },
+  {
+   "role": "Engineering",
+   "seniority": "Senior",
+   "n": 251,
+   "median": 727900,
+   "p25": 608800,
+   "p75": 900000,
+   "low_sample": false
+  },
+  {
+   "role": "Engineering",
+   "seniority": "Lead",
+   "n": 92,
+   "median": 998000,
+   "p25": 805200,
+   "p75": 1220900,
+   "low_sample": false
+  },
+  {
+   "role": "Finance & HR",
+   "seniority": "Entry",
+   "n": 6,
+   "median": 226300,
+   "p25": 212000,
+   "p75": 856900,
+   "low_sample": true
+  },
+  {
+   "role": "Finance & HR",
+   "seniority": "Mid",
+   "n": 33,
+   "median": 264300,
+   "p25": 183000,
+   "p75": 402200,
+   "low_sample": false
+  },
+  {
+   "role": "Finance & HR",
+   "seniority": "Senior",
+   "n": 46,
+   "median": 697500,
+   "p25": 474600,
+   "p75": 898000,
+   "low_sample": false
+  },
+  {
+   "role": "Finance & HR",
+   "seniority": "Lead",
+   "n": 22,
+   "median": 912000,
+   "p25": 661500,
+   "p75": 1177900,
+   "low_sample": false
+  },
+  {
+   "role": "Marketing",
+   "seniority": "Entry",
+   "n": 9,
+   "median": 183000,
+   "p25": 177800,
+   "p75": 269400,
+   "low_sample": true
+  },
+  {
+   "role": "Marketing",
+   "seniority": "Mid",
+   "n": 26,
+   "median": 335400,
+   "p25": 259700,
+   "p75": 455500,
+   "low_sample": false
+  },
+  {
+   "role": "Marketing",
+   "seniority": "Senior",
+   "n": 44,
+   "median": 635300,
+   "p25": 469800,
+   "p75": 745000,
+   "low_sample": false
+  },
+  {
+   "role": "Marketing",
+   "seniority": "Lead",
+   "n": 30,
+   "median": 938300,
+   "p25": 688200,
+   "p75": 1215600,
+   "low_sample": false
+  },
+  {
+   "role": "Other",
+   "seniority": "Entry",
+   "n": 30,
+   "median": 454100,
+   "p25": 275000,
+   "p75": 820800,
+   "low_sample": false
+  },
+  {
+   "role": "Other",
+   "seniority": "Mid",
+   "n": 67,
+   "median": 423600,
+   "p25": 292000,
+   "p75": 829000,
+   "low_sample": false
+  },
+  {
+   "role": "Other",
+   "seniority": "Senior",
+   "n": 54,
+   "median": 571100,
+   "p25": 437400,
+   "p75": 901000,
+   "low_sample": false
+  },
+  {
+   "role": "Other",
+   "seniority": "Lead",
+   "n": 41,
+   "median": 965600,
+   "p25": 767000,
+   "p75": 1214900,
+   "low_sample": false
+  },
+  {
+   "role": "Sales",
+   "seniority": "Entry",
+   "n": 23,
+   "median": 344100,
+   "p25": 269400,
+   "p75": 521500,
+   "low_sample": false
+  },
+  {
+   "role": "Sales",
+   "seniority": "Mid",
+   "n": 52,
+   "median": 396800,
+   "p25": 350900,
+   "p75": 616000,
+   "low_sample": false
+  },
+  {
+   "role": "Sales",
+   "seniority": "Senior",
+   "n": 129,
+   "median": 656400,
+   "p25": 489700,
+   "p75": 860200,
+   "low_sample": false
+  },
+  {
+   "role": "Sales",
+   "seniority": "Lead",
+   "n": 100,
+   "median": 762300,
+   "p25": 590200,
+   "p75": 1191800,
+   "low_sample": false
+  }
+ ],
+ "coverage_pct": 42.1
+}
