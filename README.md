@@ -36,6 +36,18 @@ Writes every file the website reads to `web/public/data/` (see `docs/data-contra
 
 Offline tests (no internet needed): `pip install pytest` then `python -m pytest -q`.
 
+## Step 3: run the website
+
+Needs Node.js 20+.
+
+```bash
+cd web
+npm install      # first time only
+npm run dev      # open http://localhost:5173
+```
+
+The site reads the JSON files in `web/public/data/`. Rerun `python analyze.py` and refresh to see new numbers.
+
 ## Data sources and attribution
 
 All four are free public APIs. Every job keeps its source and original link, and the site links back to it.

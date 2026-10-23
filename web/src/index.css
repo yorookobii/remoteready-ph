@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg-page: #f6f8f9;
+  --bg-surface: #ffffff;
+  --bg-sunken: #eef2f4;
+  --border: #dfe5ea;
+  --border-strong: #7a8792;
+  --ink: #0f1b22;
+  --ink-muted: #46545f;
+  --ink-subtle: #63707b;
+  --brand: #0f766e;
+  --brand-hover: #115e59;
+  --on-brand: #ffffff;
+  --brand-soft: #e3f3f1;
+  --brand-ink: #0b5c56;
+  --accent: #f59e0b;
+  --on-accent: #1c1205;
+  --accent-soft: #fdf1d8;
+  --accent-ink: #8a4b06;
+  --trend-up: #13723a;
+  --trend-up-soft: #e6f4ea;
+  --trend-down: #b4440e;
+  --trend-down-soft: #fbeee6;
+  --chart-1: #0d9488;
+  --chart-2: #d97706;
+  --chart-3: #3b6ea8;
+  --chart-4: #7a8a1e;
+  --chart-5: #b0458a;
+  --chart-other: #9aa5ae;
+  --chart-grid: #e8edf0;
+}
+
+@layer base {
+  html { -webkit-font-smoothing: antialiased; }
+  body { @apply bg-page font-sans text-ink; margin: 0; }
+  :focus-visible { outline: 2px solid var(--brand); outline-offset: 2px; }
+}
+
+@layer components {
+  .card { @apply rounded-lg border border-line bg-surface p-6; min-width: 0; }
+  .label { @apply text-label uppercase text-subtle; }
+  .num { font-variant-numeric: tabular-nums; }
+}
